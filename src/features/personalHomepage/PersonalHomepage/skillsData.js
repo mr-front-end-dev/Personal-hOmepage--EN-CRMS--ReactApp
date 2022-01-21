@@ -1,0 +1,35 @@
+export const skills = [
+  "Semantic & accessiable HTML",
+  "Error handling",
+  "Git",
+  "Responsive Web Design",
+  "React",
+  "GitHub Pull Requests & Review",
+  // eslint-disable-next-line no-script-url
+  "JavaScript: ESC6+",
+  "React Hooks",
+  "NPM",
+  "Working width API (fetch, axios)",
+  "Redux (Toolkit)",
+  "Immutability",
+  "Promises, Async/Await",
+  "Redux-Saga",
+  "Markdown",
+  "Debugging", 
+  "React Router",
+  "Scrum",
+  "CSS Flexbox",
+  "CSS Grid",
+  "Trello",
+  "Teamwork",
+  "CSS BEM convention",
+];
+
+export const nextSkills = [
+  "JS classes",
+  "Unit testing",
+  "Node.js",
+  "TypeScript",
+  "Cypress",
+  "React Context",
+];
