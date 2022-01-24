@@ -4,7 +4,7 @@ import { ReactComponent as GithubIcon } from "./github.svg";
 export const Section = styled.section`
   margin-top: 72px;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     margin-top: 48px;
   }
 `;
@@ -24,7 +24,7 @@ export const MyRecentProjects = styled.h3`
   font-size: 20px;
   color: ${({ theme }) => theme.colors.textPrimary};
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     font-size: 17px;
   }
 `;

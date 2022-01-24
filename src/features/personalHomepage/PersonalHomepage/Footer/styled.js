@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.footer`
   margin-top: 120px;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     margin-top: 48px;
   } 
 `;
@@ -22,7 +22,7 @@ export const Address = styled.address`
 export const EmailWrapper = styled.div`
   margin: 24px 0;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     margin: 12px 0;
   }
 `;
@@ -38,7 +38,7 @@ export const EmailLink = styled.a`
     color: ${({ theme }) => theme.colors.primary}
   }
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     font-size: 18px;
   }
 `;
@@ -50,7 +50,7 @@ export const Paragraph = styled.p`
   color: ${({ theme }) => theme.colors.textPrimary};
   margin: 0;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     font-size: 14px;
   }
 `;

@@ -6,7 +6,7 @@ export const SubHeader = styled.h2`
   font-weight: 900;
   color: ${({ theme }) => theme.colors.textPrimary};
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     font-size: 18px;
   }
 `;

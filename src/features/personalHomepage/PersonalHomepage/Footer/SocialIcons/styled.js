@@ -7,7 +7,7 @@ export const List = styled.ul`
   list-style: none;
   padding: 0;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     margin-top: 40px;
   }
 `;
@@ -16,7 +16,7 @@ export const Item = styled.li`
   &:not(:last-child) {
     margin-top: 24px;
 
-    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
       margin-right: 16px;
     }
   }
@@ -34,7 +34,7 @@ export const Link = styled.a`
 export const styleIcon = Icon => styled(Icon)`
   height: auto;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     width: 32px;
   }
 `;

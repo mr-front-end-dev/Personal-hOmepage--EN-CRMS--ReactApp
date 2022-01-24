@@ -21,7 +21,7 @@ export const Text = styled.span`
   font-weight: bold;
   margin-right: 12px;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     display: none;
   }
 `;
