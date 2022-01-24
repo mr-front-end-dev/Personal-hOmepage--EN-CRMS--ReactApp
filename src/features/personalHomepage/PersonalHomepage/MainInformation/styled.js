@@ -59,7 +59,7 @@ export const Summary = styled.p`
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
-    font-size: 16px;
+    font-size: 18px;
     max-width: 570px;
   }
 `;
