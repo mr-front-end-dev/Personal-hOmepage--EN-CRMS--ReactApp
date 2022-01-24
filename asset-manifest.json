@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/main.24bf54ef.js",
+    "main.js": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/main.ae26766c.js",
     "static/js/787.31c602b8.chunk.js": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/787.31c602b8.chunk.js",
     "static/media/profile.jpg": "/Plain-hOmepage--EN-CRMS--ReactApp/static/media/profile.57210a54da8d5bfb578a.jpg",
     "static/media/sun.svg": "/Plain-hOmepage--EN-CRMS--ReactApp/static/media/sun.af3df7a95eb62d195cbb9db4cec0ea9a.svg",
@@ -11,10 +11,10 @@
     "static/media/envelope.svg": "/Plain-hOmepage--EN-CRMS--ReactApp/static/media/envelope.2cee84ed8ab2268d387cd8b65b017b86.svg",
     "static/media/spinner.svg": "/Plain-hOmepage--EN-CRMS--ReactApp/static/media/spinner.88c921ac99bdee0ddbe8e9762da61c9f.svg",
     "static/media/bullet.svg": "/Plain-hOmepage--EN-CRMS--ReactApp/static/media/bullet.b6552edca50953288cbac040f39ab7af.svg",
-    "main.24bf54ef.js.map": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/main.24bf54ef.js.map",
+    "main.ae26766c.js.map": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/main.ae26766c.js.map",
     "787.31c602b8.chunk.js.map": "/Plain-hOmepage--EN-CRMS--ReactApp/static/js/787.31c602b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.24bf54ef.js"
+    "static/js/main.ae26766c.js"
   ]
 }
