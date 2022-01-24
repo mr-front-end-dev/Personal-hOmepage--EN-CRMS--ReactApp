@@ -33,7 +33,7 @@ export const List = styled.ul`
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     grid-template-columns: 1fr;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 12px;
   }
 `;
@@ -53,7 +53,7 @@ export const Bullet = styled(BulletImage)`
   height: auto;
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
-    width: 6px;
+    width: 9px;
     margin-right: 8px;
   }
 `;
