@@ -13,13 +13,13 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  &:not(:last-child) {
+  /* &:not(:last-child) { */
     margin-top: 24px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
       margin-right: 16px;
     }
-  }
+  /* } */
 `;
 
 export const Link = styled.a`
@@ -33,6 +33,7 @@ export const Link = styled.a`
 
 export const styleIcon = Icon => styled(Icon)`
   height: auto;
+  margin-right: 16px; 
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
     width: 32px;
