@@ -9,7 +9,7 @@ export const MainInformation = () => (
       <ThisIs>This is</ThisIs>
       <Name>Nikita Rysiev</Name>
       <Summary>
-         I'm a passionate [__Junior-(-Front-End-Developer-)__] in love with (-React-⚛️-), and [__Junior (-Manual-and-Auto-) Software-Tester__] currently I'am loooking for new job opportunities.
+         I'm a passionate Junior Front-End Developer in love with React, and Junior Manual and Auto Software Tester currently I'am loooking for new job opportunities.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
         <ButtonIcon />
