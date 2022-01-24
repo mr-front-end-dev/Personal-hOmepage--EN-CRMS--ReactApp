@@ -13,8 +13,8 @@ const colorNames = {
   slateGray: "#6E7E91",
   doveGray: "#6D6D6D",
   tundora: "#414141",
-  mineShaft: "#252525",
-  mineShaftLighter: "#313131",
+  lightSlateGrey: "#53616e",
+  lightSlateGreyLighter: "#5e6f7d",
 };
 
 const common = {
@@ -31,7 +31,7 @@ export const themeLight = {
   ...common,
   colors: {
     primary: colorNames.scienceBlue,
-    textPrimary: colorNames.mineShaft,
+    textPrimary: colorNames.lightSlateGrey,
     site: {
       background: colorNames.whiteLilac,
       text: colorNames.slateGray,
@@ -61,7 +61,7 @@ export const themeDark = {
     primary: colorNames.dodgerBlue,
     textPrimary: colorNames.white,
     site: {
-      background: colorNames.mineShaft,
+      background: colorNames.lightSlateGrey,
       text: colorNames.white,
     },
     buttonLink: {
@@ -69,7 +69,8 @@ export const themeDark = {
       border: colorNames.ironTransparent,
       shadow: colorNames.shipCove,
     },
-    boxBackground: colorNames.mineShaftLighter,
+    // boxBackground: colorNames.lightSlateGreyLighter,
+    boxBackground: colorNames.lightSlateGreyLighter,
     headerLine: colorNames.tundora,
     tile: {
       border: colorNames.tundora,
@@ -78,7 +79,7 @@ export const themeDark = {
     },
     themeSwitch: {
       background: colorNames.doveGray,
-      icon: colorNames.mineShaft,
+      icon: colorNames.lightSlateGrey,
     },
   },
 };
