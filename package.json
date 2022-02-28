@@ -1,8 +1,8 @@
 {
-  "name": "plain-homepage",
+  "name": "personal-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mr-front-end-dev.github.io/Plain-hOmepage--EN-CRMS--ReactApp/",
+  "homepage": "https://mr-front-end-dev.github.io/Personal-hOmepage--EN-CRMS--ReactApp/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
     "@testing-library/jest-dom": "^5.16.1",
