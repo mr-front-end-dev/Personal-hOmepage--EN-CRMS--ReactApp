@@ -23,7 +23,7 @@ export const PersonalHomepage = () => (
         skills={skills}
       />
       
-      <Skills 
+      <Skills contentEditable
         title={(
           <>
             What I want to learn next <Icon src={rocketIcon} alt="" />
