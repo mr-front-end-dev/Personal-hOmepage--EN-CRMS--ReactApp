@@ -43,6 +43,30 @@ export const EmailLink = styled.a`
   }
 `;
 
+export const PhoneWrapper = styled.div`
+  margin: 24px 0;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
+    margin: 12px 0;
+  }
+`;
+
+export const PhoneLink = styled.a`
+  color: ${({ theme }) => theme.colors.slateGrey};
+  font-weight: 900;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.3s;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary}
+  }
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
+    font-size: 18px;
+  }
+`;
+
 export const Paragraph = styled.p`
   max-width: 670px;
   font-size: 18px;
