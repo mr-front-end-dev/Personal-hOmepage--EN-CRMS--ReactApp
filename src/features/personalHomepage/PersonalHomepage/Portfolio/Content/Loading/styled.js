@@ -3,7 +3,7 @@ import { ReactComponent as Spinner } from "./spinner.svg";
 
 const rotate = keyframes`
   to {
-    transform: rotate{360deg};
+    transform: rotate(360deg);
   }
 `;
 
@@ -16,8 +16,8 @@ export const Wrapper = styled.div`
   justify-items: center;
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax767}px) {
-    font-size: 17px;
-    margin-top: 32px;
+      font-size: 17px;
+      margin-top: 32px;
   }
 `;
 
