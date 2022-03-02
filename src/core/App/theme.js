@@ -11,6 +11,7 @@ const colorNames = {
   porcelain: "#F2F3F4",
   mercury: "#e5e5e5",
   slateGray: "#6E7E91",
+  // slateGrey: "#708090",
   doveGray: "#6D6D6D",
   tundora: "#414141",
   lightSlateGrey: "#53616e",
@@ -19,6 +20,7 @@ const colorNames = {
 
 const common = {
   breakpoints: {
+    mobileMiddle480: 480,
     mobileMax767: 767,
     tableVerticalMax991: 991,
     tableHorizontalMax1199: 1199,

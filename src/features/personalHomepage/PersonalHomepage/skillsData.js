@@ -6,7 +6,7 @@ export const skills = [
   "React",
   "GitHub Pull Requests & Review",
   // eslint-disable-next-line no-script-url
-  "JavaScript: ESC6+",
+  "JavaScript language: ESC6+",
   "React Hooks",
   "NPM",
   "Working width API (fetch, axios)",
@@ -25,9 +25,35 @@ export const skills = [
   "CSS BEM convention",
 ];
 
+export const testSkills = [
+  "Java language",
+  "Jira",
+  "SQL language",
+  "Docker",
+  "Postman",
+  "SoapUI",
+  "Selenium WebDriver",
+  "Selenium + BDD",
+  "Selenium Grid",
+  "Selenium IDE",
+  "Linux System",
+  "Xpath and CSS",
+  "TDD",
+  "BDD",
+  "POST",
+  "HTTP",
+  "SEO",
+  "GET",
+  "Performance tests",
+  "Relational databases"
+];
+
 export const nextSkills = [
   "JS classes",
-  "Unit testing",
+  "Information Security",
+  "Automation testing",
+  "Data Visualization",
+  "Back End development and APIs",
   "Node.js",
   "TypeScript",
   "Cypress",
