@@ -6,7 +6,7 @@ import { ReactComponent as WarningIcon } from "./warning.svg";
 export const ErrorBox = () => (
   <Wrapper>
     <WarningIcon />
-    <Header>Ooops! Something went&nbsp;wrong...</Header>
+    <Header>Sorry! Something went&nbsp;wrong...</Header>
     <Paragraph>
       Sorry, failed to load Github&nbsp;projects.<br />
       You can check them directly&nbsp;on&nbsp;Github.
